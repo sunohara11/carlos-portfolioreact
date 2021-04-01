@@ -1,5 +1,8 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $theme-font;
     overflow-x: hidden;
   }

@@ -1,0 +1,66 @@
+.carousel {
+    width: 95%;
+    margin: 0 30px;
+    overflow-x: scroll;
+    padding: 30px 0px;
+    position: relative;
+  }
+  
+  .carousel__container {
+    white-space: nowrap;
+    margin: 50px 0px;
+    padding-bottom: 10px;
+  }
+  
+  /*scroll bar del carousel*/
+  .carousel::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  
+  .carousel::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  
+  .carousel::-webkit-scrollbar-thumb {
+    background-color: rgba(30, 78, 87, 0.1);
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  
+  /*nuevo*/
+  :root {
+    --primary-color: rgb(34, 40, 49);
+    --secondary-color: rgb(57, 62, 70);
+    --tertiary-color: rgb(0, 173, 181);
+    --quaternary-color: rgb(238, 238, 238);
+    --font-color: rgb(238, 238, 238);
+  }
+  
+  .carousel::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #222831;
+  }
+  
+  ::-webkit-scrollbar-thumb:active {
+    background: #222831;
+  }
+  
+  ::-webkit-scrollbar-track:hover {
+    background: #6ad3d8;
+  }
+  
+  ::-webkit-scrollbar-track:active {
+    background: #6ad3d8;
+  }
+  
