@@ -1,0 +1,107 @@
+/*estilos de elementos login*/
+.login{
+    background: linear-gradient(#f1faee,#a8dadc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0px;
+    min-height: calc(100vh - 200px);
+}
+/*estilos del contenedor del formulario*/
+.login__container{
+    background-color: rgba(30, 78, 87, 0.1);
+    border: 2px solid rgb(30, 78, 87);
+    border-radius: 40px;
+    color: rgba(2,0,36,1);/*del texto*/
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px 0px rgb(27, 24, 24);
+}
+/*estilos elementos del formulario*/
+.login__form{
+    display: flex;
+    flex-direction: column;
+}
+.login__form label{
+    font-size: 14px;
+}
+.login__form--recuerdame{
+    color: rgba(9,121,107,1);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.login__form--recuerdame a{
+    color: rgba(9,121,107,1);
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 2px;
+}
+.login__form--recuerdame a:hover{
+    color: seagreen;
+    font-size: 14px;
+    text-decoration: underline;
+}
+/*estilos de logos*/
+.login__socialmedia > div{
+    display: flex;
+    align-items: center;
+    font-size: 14;
+    margin-bottom: 10px;
+}
+.login__socialmedia > div > img{
+    width: 30px;
+    margin-right: 10px;
+}
+.login__register{
+    font-size: 14px;
+
+}
+.login__register a{
+    font-size: 16px;
+    color: rgba(9,121,107,1);
+    font-weight: bold;
+    text-decoration: none;
+}
+.login__register a:hover{
+    color: seagreen;
+    text-decoration: underline;
+}
+
+/*estilos de inputs*/
+.input{
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #1d3557;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 0px 20px;
+    height: 50px;
+}
+::placeholder{
+    color: rgba(2,0,36,1);
+}
+
+/*estilos botones*/
+.button{
+    background-color:rgba(30, 78, 87, 0.1);
+    border: none;
+    border-radius: 25px;
+    color: #1d3557;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
